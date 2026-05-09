@@ -1,0 +1,28 @@
+# Metrolist Spotify Edition
+
+Metrolist with a powerful Spotify-inspired UI/UX, advanced karaoke lyrics, and automated cloud builds.
+
+## How to get the APK (Cloud Build)
+
+Since building on a phone can be heavy, we use **GitHub Actions** to build the APK in the cloud.
+
+1. Go to the **Actions** tab in this repository.
+2. Select the **Build APKs** workflow.
+3. Choose the latest successful run.
+4. Scroll down to the **Artifacts** section.
+5. Download the `app-release` or `app-debug` zip file, extract it, and install the APK on your Android device.
+
+## New Features
+- **Spotify-like UI**: Deep dark theme and Spotify Green accents.
+- **Home Greeting**: Dynamic "Good Morning/Afternoon/Evening" welcome.
+- **Advanced Karaoke**: Immersive synced lyrics with focus mode and high-end animations.
+- **Light/Dark/System Theme**: Seamless transition between themes.
+
+---
+
+<div align="center">
+
+<img src="https://github.com/MetrolistGroup/Metrolist/blob/main/fastlane/metadata/android/en-US/images/icon.png" alt="Metrolist app icon" width="200" />
+
+# Metrolist
+... (rest of the content)

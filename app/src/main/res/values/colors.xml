@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Nadify — Music Player by nacdev
+    Copyright (C) 2026 nacdev
+    Warna brand utama: Ungu #7C4DFF
+-->
+<resources>
+    <!-- Brand color Nadify -->
+    <color name="nadify_purple">#7C4DFF</color>
+    <color name="nadify_purple_light">#9E7AFF</color>
+    <color name="nadify_dark">#0E0E0E</color>
+
+    <!-- Launcher icon -->
+    <color name="ic_launcher_static_background">#7C4DFF</color>
+
+    <!-- Widget colors dark -->
+    <color name="widget_text_primary">#FFFFFF</color>
+    <color name="widget_text_secondary">#AAAAAA</color>
+</resources>
