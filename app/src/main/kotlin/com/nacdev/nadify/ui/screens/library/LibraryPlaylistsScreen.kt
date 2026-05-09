@@ -53,7 +53,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.metrolist.innertube.utils.parseCookieString
+import com.nadify.innertube.utils.parseCookieString
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.CONTENT_TYPE_HEADER

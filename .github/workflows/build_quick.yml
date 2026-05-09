@@ -44,7 +44,7 @@ jobs:
         run: ./gradlew --console=plain assembleFossRelease --warning-mode summary -x lint -x lintFossRelease
         env:
           NADIFY_APPLICATION_ID: com.nacdev.nadify.test
-          NADIFY_APP_NAME: Metrolist Testing
+          NADIFY_APP_NAME: Nadify Testing
           PULL_REQUEST: "false"
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}

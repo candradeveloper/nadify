@@ -30,8 +30,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.utils.parseCookieString
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.utils.parseCookieString
 import com.nacdev.nadify.LocalDatabase
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.AddToPlaylistSortDescendingKey

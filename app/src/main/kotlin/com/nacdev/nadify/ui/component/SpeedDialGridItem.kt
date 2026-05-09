@@ -23,9 +23,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.metrolist.innertube.models.ArtistItem
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.YTItem
+import com.nadify.innertube.models.ArtistItem
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.YTItem
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.ThumbnailCornerRadius
 import com.nacdev.nadify.ui.utils.resize

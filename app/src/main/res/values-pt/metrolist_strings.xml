@@ -188,7 +188,7 @@
     <string name="wrapped_total_artists_subtitle">artistas únicos</string>
     <string name="wrapped_total_songs_title">Tu ouviste a</string>
     <string name="wrapped_total_songs_subtitle">músicas únicas</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">está na hora de ver o que andaste a ouvir</string>
     <string name="wrapped_intro_button">vamos lá!</string>
     <string name="wrapped_logo_content_description">Logo do Nadify</string>
@@ -277,7 +277,7 @@
     <string name="import_error_title">Erro de importação</string>
     <string name="casting_to">Transmitir para %s</string>
     <string name="progress_percent">Progresso %s%%</string>
-    <string name="listening_to_metrolist">Ouvir no Nadify</string>
+    <string name="listening_to_nadify">Ouvir no Nadify</string>
     <string name="open">Aberto</string>
     <string name="failed_to_create_image">Falha ao criar imagem: %s</string>
     <string name="copied_title">Título copiado</string>

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.lastfm"
+    namespace = "com.nadify.lastfm"
     compileSdk = 36
 
     defaultConfig {

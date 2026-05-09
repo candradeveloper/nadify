@@ -6,7 +6,7 @@
 package com.nacdev.nadify.lyrics
 
 import android.content.Context
-import com.metrolist.paxsenix.Paxsenix
+import com.nadify.paxsenix.Paxsenix
 import com.nacdev.nadify.constants.EnablePaxsenixKey
 import com.nacdev.nadify.utils.dataStore
 import com.nacdev.nadify.utils.get

@@ -8,15 +8,15 @@ package com.nacdev.nadify.utils
 
 import android.content.Context
 import androidx.datastore.preferences.core.edit
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.AlbumItem
-import com.metrolist.innertube.models.ArtistItem
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.PodcastItem
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.utils.completed
-import com.metrolist.innertube.utils.parseCookieString
-import com.metrolist.lastfm.LastFM
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.AlbumItem
+import com.nadify.innertube.models.ArtistItem
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.PodcastItem
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.utils.completed
+import com.nadify.innertube.utils.parseCookieString
+import com.nadify.lastfm.LastFM
 import com.nacdev.nadify.constants.InnerTubeCookieKey
 import com.nacdev.nadify.constants.LastFMUseSendLikes
 import com.nacdev.nadify.constants.LastFullSyncKey

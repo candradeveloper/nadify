@@ -30,7 +30,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.navigation.NavController
-import com.metrolist.innertube.YouTube
+import com.nadify.innertube.YouTube
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.AccountChannelHandleKey

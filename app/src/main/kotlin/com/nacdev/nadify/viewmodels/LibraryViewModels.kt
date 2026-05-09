@@ -13,9 +13,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.ArtistItem
-import com.metrolist.innertube.utils.completed
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.ArtistItem
+import com.nadify.innertube.utils.completed
 import com.nacdev.nadify.constants.AlbumFilter
 import com.nacdev.nadify.constants.AlbumFilterKey
 import com.nacdev.nadify.constants.AlbumSortDescendingKey
@@ -471,11 +471,11 @@ constructor(
         .stateIn(viewModelScope, SharingStarted.Eagerly, emptyList())
 
     // SE "Episodes for Later" playlist fetched from YT Music (like AccountScreen)
-    private val _sePlaylist = MutableStateFlow<com.metrolist.innertube.models.PlaylistItem?>(null)
+    private val _sePlaylist = MutableStateFlow<com.nadify.innertube.models.PlaylistItem?>(null)
     val sePlaylist = _sePlaylist.asStateFlow()
 
     // RDPN "New Episodes" playlist fetched from YouTube Music (real thumbnail + episode count)
-    private val _rdpnPlaylist = MutableStateFlow<com.metrolist.innertube.models.PlaylistItem?>(null)
+    private val _rdpnPlaylist = MutableStateFlow<com.nadify.innertube.models.PlaylistItem?>(null)
     val rdpnPlaylist = _rdpnPlaylist.asStateFlow()
 
     // Podcast host channels fetched from YT Music library/podcast_channels
@@ -535,7 +535,7 @@ constructor(
     private suspend fun fetchSePlaylist() {
         YouTube.library("FEmusic_liked_playlists").completed().onSuccess {
             _sePlaylist.value = it.items
-                .filterIsInstance<com.metrolist.innertube.models.PlaylistItem>()
+                .filterIsInstance<com.nadify.innertube.models.PlaylistItem>()
                 .find { it.id == "SE" }
         }.onFailure {
             timber.log.Timber.e(it, "[PODCAST] Failed to fetch SE playlist")

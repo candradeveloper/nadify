@@ -8,7 +8,7 @@ package com.nacdev.nadify.extensions
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
-import com.metrolist.innertube.utils.parseCookieString
+import com.nadify.innertube.utils.parseCookieString
 import com.nacdev.nadify.constants.InnerTubeCookieKey
 import com.nacdev.nadify.constants.YtmSyncKey
 import com.nacdev.nadify.utils.dataStore

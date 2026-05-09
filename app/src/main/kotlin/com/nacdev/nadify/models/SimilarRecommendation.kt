@@ -5,7 +5,7 @@
 
 package com.nacdev.nadify.models
 
-import com.metrolist.innertube.models.YTItem
+import com.nadify.innertube.models.YTItem
 import com.nacdev.nadify.db.entities.LocalItem
 
 data class SimilarRecommendation(

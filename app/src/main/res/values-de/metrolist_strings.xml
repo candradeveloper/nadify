@@ -248,7 +248,7 @@
     <string name="wrapped_total_artists_title">Du hast dir angehört</string>
     <string name="wrapped_total_songs_title">Du hast dir angehört</string>
     <string name="wrapped_total_songs_subtitle">einzigartige Lieder!</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">Es ist an der Zeit, mal zu schauen, was du das ganze Jahr über gehört hast…</string>
     <string name="wrapped_intro_button">Auf geht\'s!</string>
     <string name="wrapped_ready_title">Dein Wrapped ist bereit!</string>
@@ -261,7 +261,7 @@
     <string name="wrapped_playlist_saved">Playlist gespeichert</string>
     <string name="casting_to">Übertragung auf %s</string>
     <string name="progress_percent">Fortschritt %s%%</string>
-    <string name="listening_to_metrolist">Nadify hören</string>
+    <string name="listening_to_nadify">Nadify hören</string>
     <string name="open">Öffnen</string>
     <string name="failed_to_create_image">Bild konnte nicht erstellt werden: %s</string>
     <string name="copied_title">Titel kopiert</string>
@@ -619,7 +619,7 @@
     <string name="app_version_info">%1$s • %2$s</string>
     <string name="like_what_i_do">Gefällt dir meine Arbeit?</string>
     <string name="community_and_info">Community &amp; Info</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="wanna_play_favorite_song">Möchten Sie ihr Lieblingslied spielen?</string>
     <string name="yeah">Ja!</string>
     <string name="stands_with_palestine">Dieses Projekt steht hinter Palästina 🇵🇸</string>
@@ -646,9 +646,9 @@
     <string name="sleep_timer_default_set">Einschlaf-Timer standardmäßig auf %d Minuten eingestellt</string>
     <string name="error_podcast_unsubscribe">Podcast-Abo kündigen fehlgeschlagen</string>
     <string name="discord_rpc_preview">Vorschau auf „Rich Presence“</string>
-    <string name="discord_playing_metrolist">Spielt Nadify</string>
-    <string name="discord_watching_metrolist">Schaut Nadify an</string>
-    <string name="discord_competing_metrolist">Im Wettkampf in Nadify</string>
+    <string name="discord_playing_nadify">Spielt Nadify</string>
+    <string name="discord_watching_nadify">Schaut Nadify an</string>
+    <string name="discord_competing_nadify">Im Wettkampf in Nadify</string>
     <string name="remove_episode_from_saved">Von gespeicherten Episoden entfernen</string>
     <string name="filter_episodes">Episoden</string>
     <string name="filter_channels">Kanäle</string>
@@ -767,7 +767,7 @@
     <string name="recognition_notification_processing">Identifizierung…</string>
     <string name="recognition_notification_no_match">Keine Ergbnisse gefunden</string>
     <string name="recognition_notification_failed">Erkennung fehlgeschlagen</string>
-    <string name="listen_on_metrolist">Auf Nadify hören</string>
+    <string name="listen_on_nadify">Auf Nadify hören</string>
     <string name="android_auto">Android Auto</string>
     <string name="android_auto_visible_sections">Sichtbare Sektionen</string>
     <string name="android_auto_reorder_hint">Tippen Sie auf einen Abschnitt, um ihn zu aktivieren oder zu deaktivieren.\n\nHalten Sie den Ziehgriff gedrückt, um die Reihenfolge zu ändern. Der erste Abschnitt wird standardmäßig angezeigt.</string>

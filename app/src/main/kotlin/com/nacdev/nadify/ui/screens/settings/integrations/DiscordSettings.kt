@@ -851,10 +851,10 @@ fun RichPresence(
 
     val activityLabel =
         when (activityType) {
-            "playing" -> stringResource(R.string.discord_playing_metrolist)
-            "watching" -> stringResource(R.string.discord_watching_metrolist)
-            "competing" -> stringResource(R.string.discord_competing_metrolist)
-            else -> stringResource(R.string.listening_to_metrolist)
+            "playing" -> stringResource(R.string.discord_playing_nadify)
+            "watching" -> stringResource(R.string.discord_watching_nadify)
+            "competing" -> stringResource(R.string.discord_competing_nadify)
+            else -> stringResource(R.string.listening_to_nadify)
         }
 
     Surface(

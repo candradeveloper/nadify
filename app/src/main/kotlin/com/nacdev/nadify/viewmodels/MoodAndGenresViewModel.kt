@@ -7,8 +7,8 @@ package com.nacdev.nadify.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.pages.MoodAndGenres
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.pages.MoodAndGenres
 import com.nacdev.nadify.utils.reportException
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

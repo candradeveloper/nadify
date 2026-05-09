@@ -254,7 +254,7 @@
     <string name="wrapped_total_artists_subtitle">různých umělců!</string>
     <string name="wrapped_total_songs_title">Poslouchali jste</string>
     <string name="wrapped_total_songs_subtitle">různých skladeb!</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">je čas podívat se, co jsi tento rok poslouchal/a…</string>
     <string name="wrapped_intro_button">jdeme na to!</string>
     <string name="wrapped_logo_content_description">Logo Nadify</string>
@@ -269,7 +269,7 @@
     <string name="wrapped_playlist_saved">Playlist uložen</string>
     <string name="casting_to">Přehrávání přes %s</string>
     <string name="progress_percent">Postup %s%%</string>
-    <string name="listening_to_metrolist">Poslouchá Nadify</string>
+    <string name="listening_to_nadify">Poslouchá Nadify</string>
     <string name="open">Otevřít</string>
     <string name="failed_to_create_image">Nepodařilo se vytvořit obrázek: %s</string>
     <string name="copied_title">Název zkopírován</string>
@@ -548,9 +548,9 @@
     <string name="discord_rpc_preview">Náhled stavu na Discordu</string>
     <string name="discord_presence">Stav</string>
     <string name="discord_connect_description">Přihlaste se k Discordu pro sdílení hudby, kterou posloucháte</string>
-    <string name="discord_playing_metrolist">Hraje Nadify</string>
-    <string name="discord_watching_metrolist">Sleduje Nadify</string>
-    <string name="discord_competing_metrolist">Soupeří v Nadify</string>
+    <string name="discord_playing_nadify">Hraje Nadify</string>
+    <string name="discord_watching_nadify">Sleduje Nadify</string>
+    <string name="discord_competing_nadify">Soupeří v Nadify</string>
     <string name="discord_activity_name">Název aktivity</string>
     <string name="discord_activity_name_description">Vlastní název aktivity. Ponechte prázdné pro výchozí</string>
     <string name="discord_advanced_mode">Pokročilý režim</string>
@@ -612,7 +612,7 @@
     <string name="like_what_i_do">Líbí se vám, co dělám?</string>
     <string name="buy_mo_a_coffee">Kupte mi kávu!</string>
     <string name="community_and_info">Komunita a informace</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="wanna_play_favorite_song">Chcete přehrát autorovu oblíbenou skladbu?</string>
     <string name="yeah">Jasně!</string>
     <string name="stands_with_palestine">Tento projekt podporuje Palestinu 🇵🇸</string>
@@ -788,7 +788,7 @@
     <string name="recognition_notification_processing">Identifikuji…</string>
     <string name="recognition_notification_no_match">Nenalezena žádná shoda</string>
     <string name="recognition_notification_failed">Rozpoznávání selhalo</string>
-    <string name="listen_on_metrolist">Přehrát v Nadifyu</string>
+    <string name="listen_on_nadify">Přehrát v Nadifyu</string>
     <string name="android_auto">Android Auto</string>
     <string name="android_auto_visible_sections">Viditelné sekce</string>
     <string name="android_auto_reorder_hint">Klepněte na sekci pro její povolení nebo zakázání.\nPodržte posuvník pro změnu pořadí. První sekce bude ve výchozím nastavení zobrazena</string>

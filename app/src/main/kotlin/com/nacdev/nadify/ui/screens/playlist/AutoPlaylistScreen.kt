@@ -93,7 +93,7 @@ import androidx.media3.exoplayer.offline.DownloadRequest
 import androidx.media3.exoplayer.offline.DownloadService
 import androidx.navigation.NavController
 import coil3.compose.AsyncImage
-import com.metrolist.innertube.YouTube
+import com.nadify.innertube.YouTube
 import com.nacdev.nadify.LocalDownloadUtil
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.LocalPlayerConnection

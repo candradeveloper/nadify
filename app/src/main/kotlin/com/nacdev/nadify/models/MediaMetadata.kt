@@ -6,9 +6,9 @@
 package com.nacdev.nadify.models
 
 import androidx.compose.runtime.Immutable
-import com.metrolist.innertube.models.EpisodeItem
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.WatchEndpoint.WatchEndpointMusicSupportedConfigs.WatchEndpointMusicConfig.Companion.MUSIC_VIDEO_TYPE_ATV
+import com.nadify.innertube.models.EpisodeItem
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.WatchEndpoint.WatchEndpointMusicSupportedConfigs.WatchEndpointMusicConfig.Companion.MUSIC_VIDEO_TYPE_ATV
 import com.nacdev.nadify.db.entities.Song
 import com.nacdev.nadify.db.entities.SongEntity
 import com.nacdev.nadify.ui.utils.resize
@@ -70,8 +70,8 @@ data class MediaMetadata(
     fun toYTItem() = SongItem(
         id = id,
         title = title,
-        artists = artists.map { com.metrolist.innertube.models.Artist(name = it.name, id = it.id) },
-        album = album?.let { com.metrolist.innertube.models.Album(name = it.title, id = it.id) },
+        artists = artists.map { com.nadify.innertube.models.Artist(name = it.name, id = it.id) },
+        album = album?.let { com.nadify.innertube.models.Album(name = it.title, id = it.id) },
         duration = duration,
         musicVideoType = musicVideoType,
         thumbnail = thumbnailUrl ?: "",

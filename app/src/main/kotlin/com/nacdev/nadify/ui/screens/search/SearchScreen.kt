@@ -52,8 +52,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.SavedStateHandle
 import androidx.navigation.NavController
-import com.metrolist.innertube.models.WatchEndpoint
-import com.metrolist.innertube.utils.YouTubeUrlParser
+import com.nadify.innertube.models.WatchEndpoint
+import com.nadify.innertube.utils.YouTubeUrlParser
 import com.nacdev.nadify.LocalDatabase
 import com.nacdev.nadify.LocalIsPlayerExpanded
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets

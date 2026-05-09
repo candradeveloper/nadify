@@ -250,7 +250,7 @@
     <string name="wrapped_total_artists_subtitle">artisti unici!</string>
     <string name="wrapped_total_songs_title">Hai ascoltato</string>
     <string name="wrapped_total_songs_subtitle">Brani unici!</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">è ora di vedere cosa hai ascoltato per quest\'anno…</string>
     <string name="wrapped_intro_button">cominciamo!</string>
     <string name="wrapped_logo_content_description">Logo di Nadify</string>
@@ -265,7 +265,7 @@
     <string name="wrapped_playlist_saved">Playlist salvata</string>
     <string name="casting_to">Trasmissione a %s in corso</string>
     <string name="progress_percent">Progresso %s%%</string>
-    <string name="listening_to_metrolist">Ascoltando Nadify</string>
+    <string name="listening_to_nadify">Ascoltando Nadify</string>
     <string name="open">Apri</string>
     <string name="failed_to_create_image">Impossibile creare l\'immagine: %s</string>
     <string name="copied_title">Titolo copiato</string>
@@ -534,9 +534,9 @@
     <string name="discord_advanced_mode">Modalità avanzata</string>
     <string name="discord_activity_name_description">Nome personalizzato per l\'attività. Lascia vuoto per utilizzare l\'impostazione predefinita</string>
     <string name="discord_activity_name">Nome dell\'attività</string>
-    <string name="discord_competing_metrolist">Competendo su Nadify</string>
-    <string name="discord_watching_metrolist">Guardando video su Nadify</string>
-    <string name="discord_playing_metrolist">Riproducendo musica su Nadify</string>
+    <string name="discord_competing_nadify">Competendo su Nadify</string>
+    <string name="discord_watching_nadify">Guardando video su Nadify</string>
+    <string name="discord_playing_nadify">Riproducendo musica su Nadify</string>
     <string name="discord_connect_description">Accedi con Discord per condividere ciò che stai ascoltando</string>
     <string name="discord_presence">Presenza</string>
     <string name="discord_rpc_preview">Anteprima Rich Presence</string>
@@ -617,7 +617,7 @@
     <string name="like_what_i_do">Ti piace quello che faccio?</string>
     <string name="buy_mo_a_coffee">Offrimi un caffè!</string>
     <string name="community_and_info">Comunità e Informazioni</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="wanna_play_favorite_song">Vuoi riprodurre il loro brano preferito?</string>
     <string name="yeah">Sì!</string>
     <string name="stands_with_palestine">Questo progetto sostiene la Palestina 🇵🇸</string>
@@ -755,7 +755,7 @@
     <string name="copy_all_lyrics">Copia tutti i testi</string>
     <string name="change">Modifica</string>
     <string name="ai_system_prompt">Prompt di sistema</string>
-    <string name="listen_on_metrolist">Ascolta su Nadify</string>
+    <string name="listen_on_nadify">Ascolta su Nadify</string>
     <string name="android_auto">Android Auto</string>
     <string name="android_auto_visible_sections">Sezioni visibili</string>
     <string name="android_auto_youtube_playlists">Mostra le playlist suggerite da YouTube</string>

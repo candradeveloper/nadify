@@ -350,7 +350,7 @@
     <string name="stands_with_palestine">這個計畫支持巴勒斯坦🇵🇸</string>
     <string name="yeah">是的</string>
     <string name="wanna_play_favorite_song">想播放他們最喜歡的歌曲嗎？</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="community_and_info">社區與資訊</string>
     <string name="buy_mo_a_coffee">請我喝杯咖啡</string>
     <string name="like_what_i_do">喜歡我做的事嗎？</string>
@@ -382,9 +382,9 @@
     <string name="discord_advanced_mode">詳細設定</string>
     <string name="discord_activity_name_description">自訂活動名稱（留空則使用預設值）</string>
     <string name="discord_activity_name">活動名稱</string>
-    <string name="discord_competing_metrolist">參與Nadify評選</string>
-    <string name="discord_watching_metrolist">觀看 Nadify</string>
-    <string name="discord_playing_metrolist">播放 Nadify</string>
+    <string name="discord_competing_nadify">參與Nadify評選</string>
+    <string name="discord_watching_nadify">觀看 Nadify</string>
+    <string name="discord_playing_nadify">播放 Nadify</string>
     <string name="discord_connect_description">使用 Discord 登錄，分享你正在收聽的內容</string>
     <string name="discord_presence">在場</string>
     <string name="discord_rpc_preview">播放狀態預覽</string>
@@ -554,7 +554,7 @@
     <string name="wrapped_total_artists_subtitle">獨特的藝術家</string>
     <string name="wrapped_total_songs_title">你聽了</string>
     <string name="wrapped_total_songs_subtitle">獨特的歌曲</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">是時候看看你最近都在聽些什麼了</string>
     <string name="wrapped_intro_button">我們開始吧！</string>
     <string name="wrapped_logo_content_description">Nadify 標誌</string>
@@ -571,7 +571,7 @@
     <string name="error_eq_apply_failed">應用 EQ 設定失敗：%1$s</string>
     <string name="found_in_settings_content">位於「設定」&gt;「內容」中</string>
     <string name="casting_to">轉換為 %s</string>
-    <string name="listening_to_metrolist">收聽 Nadify</string>
+    <string name="listening_to_nadify">收聽 Nadify</string>
     <string name="error_playback_failed">播放失敗</string>
     <string name="error_podcast_subscribe">訂閱播客失敗</string>
     <string name="error_podcast_unsubscribe">取消訂閱播客失敗</string>
@@ -728,7 +728,7 @@
     <string name="recognition_notification_listening">正在識別歌曲...</string>
     <string name="recognition_notification_processing">識別中...</string>
     <string name="recognition_notification_failed">識別失敗</string>
-    <string name="listen_on_metrolist">在 Nadify 收聽</string>
+    <string name="listen_on_nadify">在 Nadify 收聽</string>
     <string name="android_auto">Android Auto</string>
     <string name="android_auto_visible_sections">部分可見</string>
     <string name="android_auto_reorder_hint">點擊某個版塊即可啟用或停用它…\n長按拖曳手把可重新排序。預設會顯示第一部分。</string>

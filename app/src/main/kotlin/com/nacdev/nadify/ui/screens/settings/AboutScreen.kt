@@ -69,7 +69,7 @@ import androidx.compose.ui.unit.sp
 import androidx.graphics.shapes.RoundedPolygon
 import androidx.navigation.NavController
 import coil3.compose.AsyncImage
-import com.metrolist.innertube.models.WatchEndpoint
+import com.nadify.innertube.models.WatchEndpoint
 import com.nacdev.nadify.BuildConfig
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.LocalPlayerConnection
@@ -117,7 +117,7 @@ private val collaborators = listOf(
 
 private val communityLinks = listOf(
     CommunityLink(R.string.credits_discord, R.drawable.discord, "https://discord.com/invite/zrdbeRG2Mt"),
-    CommunityLink(R.string.credits_telegram, R.drawable.telegram, "https://t.me/metrolistapp"),
+    CommunityLink(R.string.credits_telegram, R.drawable.telegram, "https://t.me/nadifyapp"),
     CommunityLink(R.string.credits_view_repo, R.drawable.github, "https://github.com/NadifyGroup/Nadify"),
     CommunityLink(R.string.credits_license_name, R.drawable.info, "https://github.com/NadifyGroup/Nadify/blob/main/LICENSE")
 )
@@ -190,7 +190,7 @@ private fun DeveloperSocials(
         horizontalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         FilledTonalButton(
-            onClick = { uriHandler.openUri("https://metrolist.meowery.eu") },
+            onClick = { uriHandler.openUri("https://nadify.meowery.eu") },
             modifier = Modifier.weight(1f).height(48.dp)
         ) {
             Icon(painterResource(R.drawable.language), contentDescription = null)
@@ -253,7 +253,7 @@ fun AboutScreen(
             ) {
                 Image(
                     painter = painterResource(R.drawable.small_icon),
-                    contentDescription = stringResource(R.string.metrolist),
+                    contentDescription = stringResource(R.string.nadify),
                     colorFilter = ColorFilter.tint(
                         color = MaterialTheme.colorScheme.primary,
                         blendMode = BlendMode.SrcIn,
@@ -264,12 +264,12 @@ fun AboutScreen(
                 Spacer(Modifier.width(20.dp))
         
                 Column {
-                    val metrolistName = stringResource(R.string.metrolist)
+                    val nadifyName = stringResource(R.string.nadify)
                         .lowercase(Locale.getDefault())
                         .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
 
                     Text(
-                        text = metrolistName,
+                        text = nadifyName,
                         style = MaterialTheme.typography.headlineLarge,
                         fontWeight = FontWeight.Black,
                         color = MaterialTheme.colorScheme.onSurface,

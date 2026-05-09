@@ -6,7 +6,7 @@
 package com.nacdev.nadify.lyrics
 
 import android.content.Context
-import com.metrolist.innertube.YouTube
+import com.nadify.innertube.YouTube
 
 object YouTubeSubtitleLyricsProvider : LyricsProvider {
     override val name = "YouTube Subtitle"

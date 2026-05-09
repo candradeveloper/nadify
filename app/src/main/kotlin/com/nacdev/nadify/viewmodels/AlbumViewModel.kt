@@ -8,8 +8,8 @@ package com.nacdev.nadify.viewmodels
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.AlbumItem
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.AlbumItem
 import com.nacdev.nadify.db.MusicDatabase
 import com.nacdev.nadify.utils.reportException
 import dagger.hilt.android.lifecycle.HiltViewModel

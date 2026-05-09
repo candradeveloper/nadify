@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.shazamkit"
+    namespace = "com.nadify.shazamkit"
     compileSdk = 36
 
     defaultConfig {

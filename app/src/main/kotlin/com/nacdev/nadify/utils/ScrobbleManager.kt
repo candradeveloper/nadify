@@ -5,7 +5,7 @@
 
 package com.nacdev.nadify.utils
 
-import com.metrolist.lastfm.LastFM
+import com.nadify.lastfm.LastFM
 import com.nacdev.nadify.models.MediaMetadata
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job

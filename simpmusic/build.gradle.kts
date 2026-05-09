@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.simpmusic"
+    namespace = "com.nadify.simpmusic"
     compileSdk = 36
 
     defaultConfig {

@@ -250,7 +250,7 @@
     <string name="wrapped_total_artists_subtitle">artistes uniques !</string>
     <string name="wrapped_total_songs_title">Vous avez écouté</string>
     <string name="wrapped_total_songs_subtitle">titres uniques !</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">Il est temps de découvrir ce que vous avez écouté tout au long de cette année…</string>
     <string name="wrapped_intro_button">allons-y !</string>
     <string name="wrapped_logo_content_description">Logo Nadify</string>
@@ -265,7 +265,7 @@
     <string name="wrapped_playlist_saved">Playlist enregistrée</string>
     <string name="casting_to">Conversion en %s</string>
     <string name="progress_percent">Progression %s%%</string>
-    <string name="listening_to_metrolist">Écouter Nadify</string>
+    <string name="listening_to_nadify">Écouter Nadify</string>
     <string name="open">Ouvrir</string>
     <string name="failed_to_create_image">Échec de la création de l\'image : %s</string>
     <string name="copied_title">Titre copié</string>
@@ -539,9 +539,9 @@
     <string name="discord_rpc_preview">Aperçu de Rich Presence</string>
     <string name="discord_presence">Présence</string>
     <string name="discord_connect_description">Connectez-vous avec Discord pour partager ce que vous écoutez</string>
-    <string name="discord_playing_metrolist">Lire sur Nadify</string>
-    <string name="discord_watching_metrolist">Regarder sur Nadify</string>
-    <string name="discord_competing_metrolist">En compétition dans Nadify</string>
+    <string name="discord_playing_nadify">Lire sur Nadify</string>
+    <string name="discord_watching_nadify">Regarder sur Nadify</string>
+    <string name="discord_competing_nadify">En compétition dans Nadify</string>
     <string name="discord_activity_name">Nom de l\'activité</string>
     <string name="discord_activity_name_description">Nom personnalisé pour l\'activité. Laisser vide pour utiliser le nom par défaut</string>
     <string name="discord_advanced_mode">Mode avancé</string>
@@ -560,7 +560,7 @@
     <string name="credits_github">GitHub</string>
     <string name="credits_view_repo">Consulter le dépôt</string>
     <string name="app_version_info">%1$s • %2$s</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="no_account_found">Aucun compte trouvé</string>
     <string name="checking_previous_account">Vérification du compte précédent…</string>
     <string name="restore">Restaurer</string>
@@ -777,7 +777,7 @@
     <string name="recognition_notification_processing">Identification en cours…</string>
     <string name="recognition_notification_no_match">Aucun résultat trouvé</string>
     <string name="recognition_notification_failed">Échec de la reconnaissance</string>
-    <string name="listen_on_metrolist">Écoutez sur Nadify</string>
+    <string name="listen_on_nadify">Écoutez sur Nadify</string>
     <string name="android_auto">Android Auto</string>
     <string name="android_auto_visible_sections">Sections visibles</string>
     <string name="android_auto_reorder_hint">Appuyez sur une section pour l\'activer ou la désactiver.\nAppuyez longuement sur la poignée de déplacement pour modifier l\'ordre. La première section s\'affichera par défaut</string>

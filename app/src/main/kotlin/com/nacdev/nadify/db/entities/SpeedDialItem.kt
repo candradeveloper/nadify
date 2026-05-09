@@ -2,14 +2,14 @@ package com.nacdev.nadify.db.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.metrolist.innertube.models.AlbumItem
-import com.metrolist.innertube.models.Artist
-import com.metrolist.innertube.models.ArtistItem
-import com.metrolist.innertube.models.EpisodeItem
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.PodcastItem
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.YTItem
+import com.nadify.innertube.models.AlbumItem
+import com.nadify.innertube.models.Artist
+import com.nadify.innertube.models.ArtistItem
+import com.nadify.innertube.models.EpisodeItem
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.PodcastItem
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.YTItem
 
 @Entity(tableName = "speed_dial_item")
 data class SpeedDialItem(
@@ -33,7 +33,7 @@ data class SpeedDialItem(
                 artists = subtitle?.split(", ")?.mapIndexed { index, name ->
                     Artist(name = name, id = subtitleIds?.split(", ")?.getOrNull(index))
                 } ?: emptyList(),
-                album = if (albumId != null && albumName != null) com.metrolist.innertube.models.Album(name = albumName, id = albumId) else null,
+                album = if (albumId != null && albumName != null) com.nadify.innertube.models.Album(name = albumName, id = albumId) else null,
                 thumbnail = thumbnailUrl ?: "",
                 explicit = explicit
             )

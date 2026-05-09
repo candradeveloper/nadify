@@ -60,8 +60,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.WatchEndpoint
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.WatchEndpoint
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.LocalPlayerConnection
 import com.nacdev.nadify.R

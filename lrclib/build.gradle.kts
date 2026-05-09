@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.lrclib"
+    namespace = "com.nadify.lrclib"
     compileSdk = 36
 
     defaultConfig {

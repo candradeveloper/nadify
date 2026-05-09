@@ -28,11 +28,11 @@ import com.google.common.collect.ImmutableList
 import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
 import com.google.common.util.concurrent.SettableFuture
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.filterExplicit
-import com.metrolist.innertube.models.filterVideoSongs
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.filterExplicit
+import com.nadify.innertube.models.filterVideoSongs
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.HideExplicitKey
 import com.nacdev.nadify.constants.HideVideoSongsKey
@@ -291,7 +291,7 @@ constructor(
                             emptyList()
                         } else {
                             try {
-                                val allSections = mutableListOf<com.metrolist.innertube.pages.HomePage.Section>()
+                                val allSections = mutableListOf<com.nadify.innertube.pages.HomePage.Section>()
                                 var continuation: String? = null
                                 val maxPages = 4
 

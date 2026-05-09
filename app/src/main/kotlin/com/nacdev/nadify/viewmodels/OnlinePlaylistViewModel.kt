@@ -9,10 +9,10 @@ import android.content.Context
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.filterVideoSongs
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.filterVideoSongs
 import com.nacdev.nadify.constants.HideVideoSongsKey
 import com.nacdev.nadify.db.MusicDatabase
 import com.nacdev.nadify.utils.dataStore
@@ -30,8 +30,8 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import com.nacdev.nadify.constants.SongSortType
-import com.metrolist.innertube.models.Artist
-import com.metrolist.innertube.models.Album
+import com.nadify.innertube.models.Artist
+import com.nadify.innertube.models.Album
 import javax.inject.Inject
 
 @HiltViewModel
@@ -174,7 +174,7 @@ class OnlinePlaylistViewModel @Inject constructor(
                     id = song.song.id,
                     title = song.song.title,
                     artists = song.artists.map { Artist(it.id, it.name) },
-                    album = song.album?.let { com.metrolist.innertube.models.Album(it.id, it.title) },
+                    album = song.album?.let { com.nadify.innertube.models.Album(it.id, it.title) },
                     duration = song.song.duration,
                     thumbnail = song.song.thumbnailUrl ?: "",
                     explicit = song.song.explicit,

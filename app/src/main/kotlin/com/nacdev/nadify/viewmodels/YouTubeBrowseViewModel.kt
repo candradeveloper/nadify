@@ -9,9 +9,9 @@ import android.content.Context
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.filterYoutubeShorts
-import com.metrolist.innertube.pages.BrowseResult
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.filterYoutubeShorts
+import com.nadify.innertube.pages.BrowseResult
 import com.nacdev.nadify.constants.HideExplicitKey
 import com.nacdev.nadify.constants.HideVideoSongsKey
 import com.nacdev.nadify.constants.HideYoutubeShortsKey

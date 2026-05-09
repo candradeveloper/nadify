@@ -8,8 +8,8 @@ package com.nacdev.nadify.ui.screens.wrapped
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.AccountInfo
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.AccountInfo
 import com.nacdev.nadify.constants.ArtistSongSortType
 import com.nacdev.nadify.db.DatabaseDao
 import com.nacdev.nadify.db.entities.Artist

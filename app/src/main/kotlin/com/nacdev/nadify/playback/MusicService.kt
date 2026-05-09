@@ -83,10 +83,10 @@ import androidx.media3.session.MediaSessionService
 import androidx.media3.session.SessionToken
 import com.google.common.collect.ImmutableList
 import com.google.common.util.concurrent.MoreExecutors
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.WatchEndpoint
-import com.metrolist.lastfm.LastFM
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.WatchEndpoint
+import com.nadify.lastfm.LastFM
 import com.nacdev.nadify.MainActivity
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.AndroidAutoTargetPlaylistKey

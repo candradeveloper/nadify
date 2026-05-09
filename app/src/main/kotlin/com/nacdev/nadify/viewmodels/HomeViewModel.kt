@@ -9,22 +9,22 @@ import android.content.Context
 import androidx.datastore.preferences.core.edit
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.AlbumItem
-import com.metrolist.innertube.models.Artist
-import com.metrolist.innertube.models.ArtistItem
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.SongItem
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.AlbumItem
+import com.nadify.innertube.models.Artist
+import com.nadify.innertube.models.ArtistItem
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.SongItem
 import kotlinx.coroutines.flow.combine
-import com.metrolist.innertube.models.WatchEndpoint
-import com.metrolist.innertube.models.BrowseEndpoint
-import com.metrolist.innertube.models.YTItem
-import com.metrolist.innertube.models.filterExplicit
-import com.metrolist.innertube.models.filterVideoSongs
-import com.metrolist.innertube.models.filterYoutubeShorts
-import com.metrolist.innertube.pages.ExplorePage
-import com.metrolist.innertube.pages.HomePage
-import com.metrolist.innertube.utils.completed
+import com.nadify.innertube.models.WatchEndpoint
+import com.nadify.innertube.models.BrowseEndpoint
+import com.nadify.innertube.models.YTItem
+import com.nadify.innertube.models.filterExplicit
+import com.nadify.innertube.models.filterVideoSongs
+import com.nadify.innertube.models.filterYoutubeShorts
+import com.nadify.innertube.pages.ExplorePage
+import com.nadify.innertube.pages.HomePage
+import com.nadify.innertube.utils.completed
 import com.nacdev.nadify.constants.HideExplicitKey
 import com.nacdev.nadify.constants.HideVideoSongsKey
 import com.nacdev.nadify.constants.HideYoutubeShortsKey
@@ -103,7 +103,7 @@ class HomeViewModel @Inject constructor(
     private val previousHomePage = MutableStateFlow<HomePage?>(null)
 
     // Official API data for podcast sections
-    val savedPodcastShows = MutableStateFlow<List<com.metrolist.innertube.models.PodcastItem>>(emptyList())
+    val savedPodcastShows = MutableStateFlow<List<com.nadify.innertube.models.PodcastItem>>(emptyList())
     val episodesForLater = MutableStateFlow<List<SongItem>>(emptyList())
 
     val allLocalItems = MutableStateFlow<List<LocalItem>>(emptyList())

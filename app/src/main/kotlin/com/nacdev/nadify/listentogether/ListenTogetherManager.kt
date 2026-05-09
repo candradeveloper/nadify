@@ -8,8 +8,8 @@ package com.nacdev.nadify.listentogether
 import android.content.Context
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.WatchEndpoint
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.WatchEndpoint
 import com.nacdev.nadify.constants.ListenTogetherSyncVolumeKey
 import com.nacdev.nadify.extensions.currentMetadata
 import com.nacdev.nadify.extensions.metadata

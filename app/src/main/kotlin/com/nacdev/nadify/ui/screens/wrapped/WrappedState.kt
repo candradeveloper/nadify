@@ -5,7 +5,7 @@
 
 package com.nacdev.nadify.ui.screens.wrapped
 
-import com.metrolist.innertube.models.AccountInfo
+import com.nadify.innertube.models.AccountInfo
 import com.nacdev.nadify.db.entities.Album
 import com.nacdev.nadify.db.entities.Artist
 import com.nacdev.nadify.db.entities.SongWithStats

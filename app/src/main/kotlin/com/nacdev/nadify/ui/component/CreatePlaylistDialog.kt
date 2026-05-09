@@ -27,7 +27,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
-import com.metrolist.innertube.YouTube
+import com.nadify.innertube.YouTube
 import com.nacdev.nadify.LocalDatabase
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.InnerTubeCookieKey

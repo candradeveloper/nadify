@@ -79,8 +79,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.SongItem
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.SongItem
 import com.nacdev.nadify.LocalDatabase
 import com.nacdev.nadify.LocalListenTogetherManager
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets

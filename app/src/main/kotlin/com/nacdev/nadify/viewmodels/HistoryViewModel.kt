@@ -8,8 +8,8 @@ package com.nacdev.nadify.viewmodels
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.pages.HistoryPage
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.pages.HistoryPage
 import com.nacdev.nadify.constants.HideVideoSongsKey
 import com.nacdev.nadify.constants.HistorySource
 import com.nacdev.nadify.db.MusicDatabase

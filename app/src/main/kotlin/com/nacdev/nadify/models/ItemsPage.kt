@@ -5,7 +5,7 @@
 
 package com.nacdev.nadify.models
 
-import com.metrolist.innertube.models.YTItem
+import com.nadify.innertube.models.YTItem
 
 data class ItemsPage(
     val items: List<YTItem>,

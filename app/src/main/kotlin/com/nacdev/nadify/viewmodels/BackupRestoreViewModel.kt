@@ -11,8 +11,8 @@ import android.net.Uri
 import android.widget.Toast
 import androidx.datastore.preferences.core.edit
 import androidx.lifecycle.ViewModel
-import com.metrolist.innertube.utils.parseCookieString
-import com.metrolist.innertube.utils.sha1
+import com.nadify.innertube.utils.parseCookieString
+import com.nadify.innertube.utils.sha1
 import com.nacdev.nadify.R
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonArray

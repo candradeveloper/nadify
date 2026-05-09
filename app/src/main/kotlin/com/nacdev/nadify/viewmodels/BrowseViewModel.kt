@@ -8,8 +8,8 @@ package com.nacdev.nadify.viewmodels
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.YTItem
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.YTItem
 import com.nacdev.nadify.utils.reportException
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -2,7 +2,7 @@ package com.my.kizzy.rpc
 
 /**
  * Created by Zion Huang
- * Modified by Metrolist contributors
+ * Modified by Nadify contributors
  */
 data class UserInfo(
     val id: String,

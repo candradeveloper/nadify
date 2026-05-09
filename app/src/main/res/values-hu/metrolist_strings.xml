@@ -350,7 +350,7 @@
     <string name="wrapped_total_artists_subtitle">egyedi előadók!</string>
     <string name="wrapped_total_songs_title">Ezeket hallgatta</string>
     <string name="wrapped_total_songs_subtitle">egyedi dalok!</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">itt az ideje áttekinteni, mit hallgatott az év során…</string>
     <string name="wrapped_intro_button">gyerünk!</string>
     <string name="wrapped_logo_content_description">Nadify Logó</string>
@@ -491,9 +491,9 @@
     <string name="discord_rpc_preview">Rich Presence Előnézet</string>
     <string name="discord_presence">Jelenlét</string>
     <string name="discord_connect_description">Jelentkezz be Discord-dal, hogy megoszd, hogy mit hallgatsz</string>
-    <string name="discord_playing_metrolist">Nadify-ezik</string>
-    <string name="discord_watching_metrolist">Nadify megnézése</string>
-    <string name="discord_competing_metrolist">Nadify-ben versenyez</string>
+    <string name="discord_playing_nadify">Nadify-ezik</string>
+    <string name="discord_watching_nadify">Nadify megnézése</string>
+    <string name="discord_competing_nadify">Nadify-ben versenyez</string>
     <string name="discord_activity_name">Tevékenység neve</string>
     <string name="discord_activity_name_description">Egyedi név a tevékenységnek (hagy üresen az alapértelmezett névnek)</string>
     <string name="discord_advanced_mode">Fejlett mód</string>
@@ -528,7 +528,7 @@
     <string name="like_what_i_do">Tetszik, amit csinálok?</string>
     <string name="buy_mo_a_coffee">Hívj meg egy kávéra</string>
     <string name="community_and_info">Közösség és információ</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="wanna_play_favorite_song">Játszuk a kedvenc dalukat?</string>
     <string name="yeah">Naná</string>
     <string name="stands_with_palestine">Ez a projekt Palesztina mellett áll 🇵🇸</string>
@@ -604,7 +604,7 @@
     <string name="plays">játssza</string>
     <string name="casting_to">Átküldés %s-re</string>
     <string name="progress_percent">Állapot %s%%</string>
-    <string name="listening_to_metrolist">Nadify-en hallgat</string>
+    <string name="listening_to_nadify">Nadify-en hallgat</string>
     <string name="open">Megnyitás</string>
     <string name="failed_to_create_image">%s kép létrehozása sikertelen</string>
     <string name="copied_title">Cím másolva</string>
@@ -773,7 +773,7 @@
     <string name="recognition_notification_processing">Azonosítás...</string>
     <string name="recognition_notification_no_match">Nincs találat</string>
     <string name="recognition_notification_failed">Felismerés sikertelen</string>
-    <string name="listen_on_metrolist">Hallgassa meg a Nadify-on</string>
+    <string name="listen_on_nadify">Hallgassa meg a Nadify-on</string>
     <string name="android_auto">Android Auto</string>
     <string name="android_auto_visible_sections">Látható részek</string>
     <string name="android_auto_reorder_hint">Koppintson egy szakaszra az engedélyezéséhez vagy letiltásához.\nNyomja meg hosszan a húzófogantyút az átrendezéshez. Alapértelmezés szerint az első szakasz jelenik meg.</string>

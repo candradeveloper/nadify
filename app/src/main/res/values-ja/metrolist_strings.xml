@@ -236,7 +236,7 @@
     <string name="pure_black_mini_player">ピュアブラックのミニプレーヤー</string>
     <string name="listen_together">Listen Together</string>
     <string name="play_pause">再生/停止</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="apple_music_style">Apple Music</string>
     <string name="karaoke">カラオケ</string>
     <string name="none">なし</string>
@@ -390,7 +390,7 @@
     <string name="error_eq_apply_failed">イコライザープロファイルを適用できません：%1$s</string>
     <string name="casting_to">%sにキャスト中</string>
     <string name="progress_percent">進行状況：%s%%</string>
-    <string name="listening_to_metrolist">Nadifyで再生中</string>
+    <string name="listening_to_nadify">Nadifyで再生中</string>
     <string name="failed_to_create_image">画像の作成に失敗しました：%s</string>
     <string name="error_playing">再生中にエラーが発生しました</string>
     <string name="failed_to_parse_proxy">プロキシURLを解析できません</string>
@@ -531,9 +531,9 @@
     <string name="discord_rpc_preview">再生状況のプレビュー</string>
     <string name="discord_presence">プレゼンス</string>
     <string name="discord_connect_description">Discordにサインインして、再生中の内容を共有しよう</string>
-    <string name="discord_playing_metrolist">Nadifyで再生中</string>
-    <string name="discord_watching_metrolist">Nadifyで視聴中</string>
-    <string name="discord_competing_metrolist">Nadifyで大会に参加中</string>
+    <string name="discord_playing_nadify">Nadifyで再生中</string>
+    <string name="discord_watching_nadify">Nadifyで視聴中</string>
+    <string name="discord_competing_nadify">Nadifyで大会に参加中</string>
     <string name="discord_activity_name">アクティビティ名</string>
     <string name="discord_activity_name_description">アクティビティのカスタム名（空欄の場合はデフォルトを使用します）</string>
     <string name="discord_advanced_mode">詳細設定</string>
@@ -612,7 +612,7 @@
     <string name="like_what_i_do">私の活動を気に入ってもらえましたか？</string>
     <string name="buy_mo_a_coffee">コーヒーをおごる</string>
     <string name="community_and_info">コミュニティと情報</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="wanna_play_favorite_song">お気に入りの曲を再生しますか？</string>
     <string name="yeah">はい</string>
     <string name="stands_with_palestine">このプロジェクトはパレスチナを支持しています 🇵🇸</string>
@@ -756,7 +756,7 @@
     <string name="recognition_notification_processing">認識中…</string>
     <string name="recognition_notification_no_match">一致する曲が見つかりませんでした</string>
     <string name="recognition_notification_failed">認識に失敗しました</string>
-    <string name="listen_on_metrolist">Nadifyで聴く</string>
+    <string name="listen_on_nadify">Nadifyで聴く</string>
     <string name="android_auto">Android Auto</string>
     <string name="android_auto_visible_sections">表示する項目</string>
     <string name="android_auto_reorder_hint">項目をタップするとオン/オフを切り替えられます。長押しで並び替えができます。先頭の項目がデフォルトで表示されます</string>

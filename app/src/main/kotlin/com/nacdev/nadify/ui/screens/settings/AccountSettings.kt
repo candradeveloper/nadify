@@ -52,8 +52,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil3.compose.AsyncImage
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.utils.parseCookieString
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.utils.parseCookieString
 import com.nacdev.nadify.BuildConfig
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.AccountChannelHandleKey

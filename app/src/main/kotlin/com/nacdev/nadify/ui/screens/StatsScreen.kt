@@ -61,9 +61,9 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.metrolist.innertube.models.Artist
-import com.metrolist.innertube.models.WatchEndpoint
-import com.metrolist.innertube.utils.parseCookieString
+import com.nadify.innertube.models.Artist
+import com.nadify.innertube.models.WatchEndpoint
+import com.nadify.innertube.utils.parseCookieString
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.LocalPlayerConnection
 import com.nacdev.nadify.R

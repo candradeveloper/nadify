@@ -10,8 +10,8 @@ import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.snapshotFlow
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.Artist
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.Artist
 import com.nacdev.nadify.constants.HideVideoSongsKey
 import com.nacdev.nadify.constants.LastMonthlyMostPlaylistSyncKey
 import com.nacdev.nadify.constants.LastWeeklyMostPlaylistSyncKey

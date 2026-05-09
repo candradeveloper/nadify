@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.innertube"
+    namespace = "com.nadify.innertube"
     compileSdk = 36
 
     defaultConfig {
@@ -29,7 +29,7 @@ dependencies {
     implementation(libs.ktor.serialization.json)
     implementation(libs.ktor.client.encoding)
     implementation(libs.brotli)
-    implementation("com.github.MetrolistGroup:MetrolistExtractor:6305155") {
+    implementation("com.github.NadifyGroup:NadifyExtractor:6305155") {
         exclude(group = "com.google.protobuf")
     }
     implementation(libs.timber)

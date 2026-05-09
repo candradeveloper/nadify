@@ -21,10 +21,10 @@ import coil3.memory.MemoryCache
 import coil3.request.CachePolicy
 import coil3.request.allowHardware
 import coil3.request.crossfade
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.YouTubeLocale
-import com.metrolist.kugou.KuGou
-import com.metrolist.lastfm.LastFM
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.YouTubeLocale
+import com.nadify.kugou.KuGou
+import com.nadify.lastfm.LastFM
 import com.nacdev.nadify.BuildConfig
 import com.nacdev.nadify.constants.*
 import com.nacdev.nadify.di.ApplicationScope

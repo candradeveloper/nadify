@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.paxsenix"
+    namespace = "com.nadify.paxsenix"
     compileSdk = 36
 
     defaultConfig {

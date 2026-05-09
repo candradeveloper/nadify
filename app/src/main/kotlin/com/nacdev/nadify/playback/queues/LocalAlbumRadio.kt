@@ -6,8 +6,8 @@
 package com.nacdev.nadify.playback.queues
 
 import androidx.media3.common.MediaItem
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.WatchEndpoint
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.WatchEndpoint
 import com.nacdev.nadify.db.entities.AlbumWithSongs
 import com.nacdev.nadify.extensions.toMediaItem
 import com.nacdev.nadify.models.MediaMetadata

@@ -6,7 +6,7 @@
 package com.nacdev.nadify.lyrics
 
 import android.content.Context
-import com.metrolist.kugou.KuGou
+import com.nadify.kugou.KuGou
 import com.nacdev.nadify.constants.EnableKugouKey
 import com.nacdev.nadify.utils.dataStore
 import com.nacdev.nadify.utils.get

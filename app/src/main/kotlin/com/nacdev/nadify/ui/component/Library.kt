@@ -14,8 +14,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavController
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.WatchEndpoint
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.WatchEndpoint
 import com.nacdev.nadify.R
 import com.nacdev.nadify.db.entities.Album
 import com.nacdev.nadify.db.entities.Artist

@@ -329,7 +329,7 @@
     <string name="your_daily_discover">আপনার দৈনন্দিন ডিসকভার</string>
     <string name="casting_to">%s-এ কাস্ট করা হচ্ছে</string>
     <string name="progress_percent">অগ্রগতি %s%%</string>
-    <string name="listening_to_metrolist">মেট্রোলিস্ট শুনছেন</string>
+    <string name="listening_to_nadify">মেট্রোলিস্ট শুনছেন</string>
     <string name="open">খুলুন</string>
     <string name="failed_to_create_image">ছবি তৈরি ব্যর্থ হয়েছে: %s</string>
     <string name="copied_title">শিরোনাম কপি করা হয়েছে</string>
@@ -516,7 +516,7 @@
     <string name="like_what_i_do">আমার কাজ কি আপনার ভালো লাগে?</string>
     <string name="buy_mo_a_coffee">আমাকে এক কাপ কফি কিনে দাও!</string>
     <string name="community_and_info">কমিউনিটি ও তথ্য</string>
-    <string name="metrolist">মেট্রোলিস্ট</string>
+    <string name="nadify">মেট্রোলিস্ট</string>
     <string name="wanna_play_favorite_song">তাদের প্রিয় গানটি বাজাতে চান?</string>
     <string name="yeah">হ্যাঁ!</string>
     <string name="stands_with_palestine">এই প্রকল্পটি ফিলিস্তিনের পাশে আছে 🇵🇸</string>
@@ -559,7 +559,7 @@
     <string name="delete_uploaded_songs_confirm">আপনি কি আপলোড করা %1$d টি গান মুছে ফেলতে নিশ্চিত? এই কাজটি পূর্বাবস্থায় ফেরানো যাবে না</string>
     <string name="deleted_n_songs">%1$d টি গান মুছে ফেলা হয়েছে</string>
     <string name="deleting">মুছে ফেলা হচ্ছে…</string>
-    <string name="discord_competing_metrolist">মেট্রোলিস্টে প্রতিযোগিতা</string>
+    <string name="discord_competing_nadify">মেট্রোলিস্টে প্রতিযোগিতা</string>
     <string name="discord_activity_name">কার্যকলাপের নাম</string>
     <string name="discord_activity_name_description">অ্যাক্টিভিটির জন্য নিজস্ব নাম। ডিফল্ট নাম ব্যবহার করতে খালি রাখুন</string>
     <string name="discord_advanced_mode">উন্নত মোড</string>
@@ -802,7 +802,7 @@
     <string name="recognition_notification_processing">শনাক্ত করা হচ্ছে…</string>
     <string name="recognition_notification_no_match">কোনো মিল খুঁজে পাওয়া যায়নি</string>
     <string name="recognition_notification_failed">শনাক্তকরণ ব্যর্থ হয়েছে</string>
-    <string name="listen_on_metrolist">মেট্রোলিস্টে শুনুন</string>
+    <string name="listen_on_nadify">মেট্রোলিস্টে শুনুন</string>
     <string name="map_csv_columns">CSV কলামগুলি ম্যাপ করুন</string>
     <string name="first_row_is_header">প্রথম সারিটি হেডার</string>
     <string name="artist_name_column">শিল্পীর নামের কলাম</string>
@@ -831,6 +831,6 @@
     <string name="discord_rpc_preview">রিচ প্রেজেন্স প্রিভিউ</string>
     <string name="discord_presence">প্রেজেন্স</string>
     <string name="discord_connect_description">আপনি যা শুনছেন তা শেয়ার করতে ডিসকর্ডে সাইন ইন করুন</string>
-    <string name="discord_playing_metrolist">মেট্রোলিস্ট বাজানো হচ্ছে</string>
-    <string name="discord_watching_metrolist">মেট্রোলিস্ট দেখা হচ্ছে</string>
+    <string name="discord_playing_nadify">মেট্রোলিস্ট বাজানো হচ্ছে</string>
+    <string name="discord_watching_nadify">মেট্রোলিস্ট দেখা হচ্ছে</string>
 </resources>

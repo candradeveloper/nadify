@@ -79,7 +79,7 @@ import androidx.media3.exoplayer.offline.Download
 import androidx.media3.exoplayer.offline.DownloadRequest
 import androidx.media3.exoplayer.offline.DownloadService
 import androidx.navigation.NavController
-import com.metrolist.innertube.YouTube
+import com.nadify.innertube.YouTube
 import com.nacdev.nadify.LocalDatabase
 import com.nacdev.nadify.LocalDownloadUtil
 import com.nacdev.nadify.LocalListenTogetherManager
@@ -1465,7 +1465,7 @@ fun ListenTogetherDialog(
                                 Spacer(modifier = Modifier.height(12.dp))
                                 val inviteLink =
                                     remember(room.roomCode) {
-                                        "https://metrolist.meowery.eu/listen?code=${room.roomCode}"
+                                        "https://nadify.meowery.eu/listen?code=${room.roomCode}"
                                     }
                                 Row(
                                     verticalAlignment = Alignment.CenterVertically,

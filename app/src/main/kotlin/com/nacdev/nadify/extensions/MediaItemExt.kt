@@ -9,7 +9,7 @@ import android.os.Bundle
 import androidx.core.net.toUri
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata.MEDIA_TYPE_MUSIC
-import com.metrolist.innertube.models.SongItem
+import com.nadify.innertube.models.SongItem
 import com.nacdev.nadify.db.entities.Song
 import com.nacdev.nadify.models.MediaMetadata
 import com.nacdev.nadify.models.toMediaMetadata

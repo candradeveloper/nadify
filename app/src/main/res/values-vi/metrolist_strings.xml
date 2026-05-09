@@ -356,7 +356,7 @@
     <string name="enable">Cho phép</string>
     <string name="credits_instagram">Instagram</string>
     <string name="save_episode_for_later">Lưu để nghe sau</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="credits_license_name">Giấy phép Công cộng GNU phiên bản 3.0 (GPLv3)</string>
     <string name="daily_discover_based_on">Dựa trên %1$s</string>
     <string name="logout_keep">Giữ lại</string>
@@ -514,7 +514,7 @@
     <string name="wrapped_total_artists_subtitle">nghệ sĩ độc bản!</string>
     <string name="wrapped_total_songs_title">Bạn đã được nghe</string>
     <string name="wrapped_total_songs_subtitle">các bài hát độc đáo!</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">đã đến lúc xem bạn đã nghe những gì trong suốt năm qua…</string>
     <string name="wrapped_intro_button">đi nào!</string>
     <string name="wrapped_ready_title">WRAPPED CỦA BẠN ĐÃ SẴN SÀNG!</string>
@@ -584,7 +584,7 @@
     <string name="found_in_settings_content">Tìm ở Cài đặt &gt; Nội dung</string>
     <string name="your_daily_discover">Hôm nay nghe gì?</string>
     <string name="casting_to">Đang phát tới %s</string>
-    <string name="listening_to_metrolist">Đang nghe Nadify</string>
+    <string name="listening_to_nadify">Đang nghe Nadify</string>
     <string name="open">Mở</string>
     <string name="failed_to_create_image">Không thể tạo ảnh: %s</string>
     <string name="copied_title">Đã sao chép tiêu đề</string>
@@ -717,7 +717,7 @@
     <string name="recognition_notification_processing">Đang xác định…</string>
     <string name="recognition_notification_no_match">Không tìm thấy kết quả phù hợp</string>
     <string name="recognition_notification_failed">Không nhận dạng được</string>
-    <string name="listen_on_metrolist">Nghe trên Nadify</string>
+    <string name="listen_on_nadify">Nghe trên Nadify</string>
     <string name="map_csv_columns">Ánh xạ các cột CSV</string>
     <string name="first_row_is_header">Dòng đầu tiên là tiêu đề</string>
     <string name="artist_name_column">Cột Tên nghệ sĩ</string>
@@ -743,9 +743,9 @@
     <string name="discord_activity_watching">Đang xem</string>
     <string name="discord_rpc_preview">Xem trước Rich Presence</string>
     <string name="discord_connect_description">Đăng nhập bằng Discord để chia sẻ những gì bạn đang nghe</string>
-    <string name="discord_playing_metrolist">Đang phát Nadify</string>
-    <string name="discord_watching_metrolist">Đang xem Nadify</string>
-    <string name="discord_competing_metrolist">Đang tham gia trên Nadify</string>
+    <string name="discord_playing_nadify">Đang phát Nadify</string>
+    <string name="discord_watching_nadify">Đang xem Nadify</string>
+    <string name="discord_competing_nadify">Đang tham gia trên Nadify</string>
     <string name="discord_activity_name">Tên hoạt động</string>
     <string name="discord_activity_name_description">Tên tùy chỉnh cho hoạt động. Để trống để sử dụng tên mặc định</string>
     <string name="discord_advanced_mode">Chế độ nâng cao</string>

@@ -267,5 +267,5 @@
     <string name="wrapped_total_artists_subtitle">različnih izvajalcev</string>
     <string name="casting_to">Predvajanje na %s</string>
     <string name="progress_percent">Napredek: %s%%</string>
-    <string name="listening_to_metrolist">Poslušaš Nadify</string>
+    <string name="listening_to_nadify">Poslušaš Nadify</string>
 </resources>

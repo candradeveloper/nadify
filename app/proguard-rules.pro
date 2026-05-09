@@ -10,24 +10,24 @@
 # Without this, R8 assigns short names (e.g. `j`, `k`) to renamed classes in a non-deterministic
 # order, causing byte-for-byte differences between builds. This is required for F-Droid / IzzyOnDroid
 # Reproducible Build verification. Code shrinking (dead code removal) remains fully enabled.
-# Since Metrolist is fully open-source, obfuscation provides no meaningful security benefit.
+# Since Nadify is fully open-source, obfuscation provides no meaningful security benefit.
 -dontobfuscate
 
 # WEB_REMIX Streaming - WebView JavaScript interfaces
--keepclassmembers class com.metrolist.music.utils.sabr.EjsNTransformSolver$SolverWebView {
+-keepclassmembers class com.nacdev.nadify.utils.sabr.EjsNTransformSolver$SolverWebView {
     @android.webkit.JavascriptInterface public *;
 }
--keepclassmembers class com.metrolist.music.utils.cipher.CipherWebView {
+-keepclassmembers class com.nacdev.nadify.utils.cipher.CipherWebView {
     @android.webkit.JavascriptInterface public *;
 }
--keepclassmembers class com.metrolist.music.utils.potoken.PoTokenWebView {
+-keepclassmembers class com.nacdev.nadify.utils.potoken.PoTokenWebView {
     @android.webkit.JavascriptInterface public *;
 }
 
 # Keep streaming utility classes
--keep class com.metrolist.music.utils.cipher.** { *; }
--keep class com.metrolist.music.utils.sabr.** { *; }
--keep class com.metrolist.music.utils.potoken.** { *; }
+-keep class com.nacdev.nadify.utils.cipher.** { *; }
+-keep class com.nacdev.nadify.utils.sabr.** { *; }
+-keep class com.nacdev.nadify.utils.potoken.** { *; }
 
 # Keep coroutine continuation for WebView callbacks
 -keepclassmembers class * {
@@ -150,11 +150,11 @@
 
 ## Queue Persistence Rules
 # Keep queue-related classes to prevent serialization issues in release builds
--keep class com.metrolist.music.models.PersistQueue { *; }
--keep class com.metrolist.music.models.PersistPlayerState { *; }
--keep class com.metrolist.music.models.QueueData { *; }
--keep class com.metrolist.music.models.QueueType { *; }
--keep class com.metrolist.music.playback.queues.** { *; }
+-keep class com.nacdev.nadify.models.PersistQueue { *; }
+-keep class com.nacdev.nadify.models.PersistPlayerState { *; }
+-keep class com.nacdev.nadify.models.QueueData { *; }
+-keep class com.nacdev.nadify.models.QueueType { *; }
+-keep class com.nacdev.nadify.playback.queues.** { *; }
 
 # Keep serialization methods for queue persistence
 -keepclassmembers class * implements java.io.Serializable {
@@ -168,7 +168,7 @@
 -keep interface com.yalantis.ucrop** { *; }
 
 ## Google Cast Rules
--keep class com.metrolist.music.cast.** { *; }
+-keep class com.nacdev.nadify.cast.** { *; }
 -keep class com.google.android.gms.cast.** { *; }
 -keep class androidx.mediarouter.** { *; }
 
@@ -176,8 +176,8 @@
 -dontwarn com.google.re2j.**
 
 # Vibra fingerprint library
--keep class com.metrolist.music.recognition.VibraSignature { *; }
--keepclassmembers class com.metrolist.music.recognition.VibraSignature {
+-keep class com.nacdev.nadify.recognition.VibraSignature { *; }
+-keepclassmembers class com.nacdev.nadify.recognition.VibraSignature {
     native <methods>;
 }
 
@@ -192,20 +192,20 @@
 -dontwarn io.ktor.**
 
 ## Listen Together Protobuf
--keep class com.metrolist.music.listentogether.proto.** { *; }
--keepclassmembers class com.metrolist.music.listentogether.proto.** { *; }
+-keep class com.nacdev.nadify.listentogether.proto.** { *; }
+-keepclassmembers class com.nacdev.nadify.listentogether.proto.** { *; }
 
 ## Shazam Models
--keep class com.metrolist.shazamkit.models.** { *; }
--keepclassmembers class com.metrolist.shazamkit.models.** {
+-keep class com.nadify.shazamkit.models.** { *; }
+-keepclassmembers class com.nadify.shazamkit.models.** {
     *;
 }
 
 ## Kotlinx Serialization
 -keepattributes *Annotation*
--keepclassmembers class com.metrolist.shazamkit.models.** {
+-keepclassmembers class com.nadify.shazamkit.models.** {
     *** Companion;
 }
--keepclasseswithmembers class com.metrolist.shazamkit.models.** {
+-keepclasseswithmembers class com.nadify.shazamkit.models.** {
     kotlinx.serialization.KSerializer serializer(...);
 }

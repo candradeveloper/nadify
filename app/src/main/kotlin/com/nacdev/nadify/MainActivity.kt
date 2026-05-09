@@ -120,9 +120,9 @@ import coil3.request.ImageRequest
 import coil3.request.allowHardware
 import coil3.request.crossfade
 import coil3.toBitmap
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.models.WatchEndpoint
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.models.WatchEndpoint
 import com.nacdev.nadify.constants.AppBarHeight
 import com.nacdev.nadify.constants.AppLanguageKey
 import com.nacdev.nadify.constants.CheckForUpdatesKey

@@ -1,6 +1,6 @@
-# Metrolist Spotify Edition
+# Nadify Spotify Edition
 
-Metrolist with a powerful Spotify-inspired UI/UX, advanced karaoke lyrics, and automated cloud builds.
+Nadify with a powerful Spotify-inspired UI/UX, advanced karaoke lyrics, and automated cloud builds.
 
 ## How to get the APK (Cloud Build)
 
@@ -22,7 +22,7 @@ Since building on a phone can be heavy, we use **GitHub Actions** to build the A
 
 <div align="center">
 
-<img src="https://github.com/MetrolistGroup/Metrolist/blob/main/fastlane/metadata/android/en-US/images/icon.png" alt="Metrolist app icon" width="200" />
+<img src="https://github.com/NadifyGroup/Nadify/blob/main/fastlane/metadata/android/en-US/images/icon.png" alt="Nadify app icon" width="200" />
 
-# Metrolist
+# Nadify
 ... (rest of the content)

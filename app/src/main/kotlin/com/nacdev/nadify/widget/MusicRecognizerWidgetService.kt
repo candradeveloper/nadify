@@ -30,7 +30,7 @@ import com.nacdev.nadify.R
 import com.nacdev.nadify.db.DatabaseDao
 import com.nacdev.nadify.db.entities.RecognitionHistory
 import com.nacdev.nadify.recognition.MusicRecognitionService
-import com.metrolist.shazamkit.models.RecognitionStatus
+import com.nadify.shazamkit.models.RecognitionStatus
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.android.EntryPointAccessors

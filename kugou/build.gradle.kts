@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.kugou"
+    namespace = "com.nadify.kugou"
     compileSdk = 36
 
     defaultConfig {

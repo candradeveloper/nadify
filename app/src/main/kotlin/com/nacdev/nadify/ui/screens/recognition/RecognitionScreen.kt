@@ -85,8 +85,8 @@ import com.nacdev.nadify.R
 import com.nacdev.nadify.db.entities.RecognitionHistory
 import com.nacdev.nadify.ui.component.IconButton
 import com.nacdev.nadify.ui.utils.backToMain
-import com.metrolist.shazamkit.models.RecognitionResult
-import com.metrolist.shazamkit.models.RecognitionStatus
+import com.nadify.shazamkit.models.RecognitionResult
+import com.nadify.shazamkit.models.RecognitionStatus
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.time.LocalDateTime

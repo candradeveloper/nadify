@@ -38,8 +38,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.MediaInfo
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.MediaInfo
 import com.nacdev.nadify.LocalDatabase
 import com.nacdev.nadify.LocalPlayerConnection
 import com.nacdev.nadify.R

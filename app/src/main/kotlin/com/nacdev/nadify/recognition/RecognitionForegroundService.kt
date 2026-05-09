@@ -15,8 +15,8 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.nacdev.nadify.MainActivity
 import com.nacdev.nadify.R
-import com.metrolist.shazamkit.models.RecognitionResult
-import com.metrolist.shazamkit.models.RecognitionStatus
+import com.nadify.shazamkit.models.RecognitionResult
+import com.nadify.shazamkit.models.RecognitionStatus
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -255,7 +255,7 @@ class RecognitionForegroundService : Service() {
             contentIntent = pendingIntent,
             largeIcon = null,
             actionIntent = pendingIntent,
-            actionTitle = getString(R.string.listen_on_metrolist),
+            actionTitle = getString(R.string.listen_on_nadify),
         )
 
         serviceScope.launch {
@@ -277,7 +277,7 @@ class RecognitionForegroundService : Service() {
                     contentIntent = pendingIntent,
                     largeIcon = coverBitmap,
                     actionIntent = pendingIntent,
-                    actionTitle = getString(R.string.listen_on_metrolist),
+                    actionTitle = getString(R.string.listen_on_nadify),
                 )
             }
             finishWithPersistentResult()

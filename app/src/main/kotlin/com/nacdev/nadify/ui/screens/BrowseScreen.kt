@@ -24,9 +24,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.metrolist.innertube.models.AlbumItem
-import com.metrolist.innertube.models.ArtistItem
-import com.metrolist.innertube.models.PlaylistItem
+import com.nadify.innertube.models.AlbumItem
+import com.nadify.innertube.models.ArtistItem
+import com.nadify.innertube.models.PlaylistItem
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.LocalPlayerConnection
 import com.nacdev.nadify.R

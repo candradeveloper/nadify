@@ -2216,10 +2216,10 @@ fun OriginalLyrics(
 }
 
 // Professional page animation constants inspired by Nadify design - slower for smoothness
-private const val METROLIST_AUTO_SCROLL_DURATION = 1500L // Much slower auto-scroll for smooth transitions
-private const val METROLIST_INITIAL_SCROLL_DURATION = 1000L // Slower initial positioning
-private const val METROLIST_SEEK_DURATION = 800L // Slower user interaction
-private const val METROLIST_FAST_SEEK_DURATION = 600L // Less aggressive seeking
+private const val NADIFY_AUTO_SCROLL_DURATION = 1500L // Much slower auto-scroll for smooth transitions
+private const val NADIFY_INITIAL_SCROLL_DURATION = 1000L // Slower initial positioning
+private const val NADIFY_SEEK_DURATION = 800L // Slower user interaction
+private const val NADIFY_FAST_SEEK_DURATION = 600L // Less aggressive seeking
 
 // Lyrics constants
 val LyricsPreviewTime = 2.seconds

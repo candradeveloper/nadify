@@ -51,7 +51,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
 import androidx.navigation.NavController
-import com.metrolist.lastfm.LastFM
+import com.nadify.lastfm.LastFM
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
 import com.nacdev.nadify.R
 import com.nacdev.nadify.constants.EnableLastFMScrobblingKey

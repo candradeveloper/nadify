@@ -8,9 +8,9 @@ package com.nacdev.nadify.viewmodels
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.filterExplicit
-import com.metrolist.innertube.pages.ExplorePage
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.filterExplicit
+import com.nadify.innertube.pages.ExplorePage
 import com.nacdev.nadify.constants.HideExplicitKey
 import com.nacdev.nadify.db.MusicDatabase
 import com.nacdev.nadify.utils.dataStore

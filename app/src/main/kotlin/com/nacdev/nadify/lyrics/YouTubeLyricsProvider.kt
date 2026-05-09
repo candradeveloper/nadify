@@ -6,8 +6,8 @@
 package com.nacdev.nadify.lyrics
 
 import android.content.Context
-import com.metrolist.innertube.YouTube
-import com.metrolist.innertube.models.WatchEndpoint
+import com.nadify.innertube.YouTube
+import com.nadify.innertube.models.WatchEndpoint
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

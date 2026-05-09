@@ -269,7 +269,7 @@
     <string name="wrapped_total_artists_subtitle">artistas únicos</string>
     <string name="wrapped_total_songs_title">Escuchaste</string>
     <string name="wrapped_total_songs_subtitle">canciones únicas</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">es hora de ver lo que estuviste escuchando</string>
     <string name="wrapped_intro_button">¡vamos!</string>
     <string name="wrapped_logo_content_description">Logo de Nadify</string>
@@ -303,7 +303,7 @@
     <string name="error_file_open">No se pudo abrir el archivo: %1$s</string>
     <string name="import_error_title">Error al importar</string>
     <string name="casting_to">Transmitiendo a %s</string>
-    <string name="listening_to_metrolist">Escuchando Nadify</string>
+    <string name="listening_to_nadify">Escuchando Nadify</string>
     <string name="open">Abrir</string>
     <string name="failed_to_create_image">No se pudo crear la imagen: %s</string>
     <string name="copied_title">Se copió el título</string>
@@ -544,9 +544,9 @@
     <string name="discord_rpc_preview">Previsualizar Presencia</string>
     <string name="discord_presence">Presencia</string>
     <string name="discord_connect_description">Inicia sesión con Discord para compartir lo que estás escuchando</string>
-    <string name="discord_playing_metrolist">Reproduciendo en Nadify</string>
-    <string name="discord_watching_metrolist">Viendo en Nadify</string>
-    <string name="discord_competing_metrolist">Compitiendo en Nadify</string>
+    <string name="discord_playing_nadify">Reproduciendo en Nadify</string>
+    <string name="discord_watching_nadify">Viendo en Nadify</string>
+    <string name="discord_competing_nadify">Compitiendo en Nadify</string>
     <string name="discord_activity_name">Nombre de la actividad</string>
     <string name="discord_activity_name_description">Nombre personalizado para la actividad (déjelo vacío para usar el nombre predeterminado)</string>
     <string name="discord_advanced_mode">Modo avanzado</string>

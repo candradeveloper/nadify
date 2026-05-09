@@ -17,10 +17,10 @@ import androidx.room.Transaction
 import androidx.room.Update
 import androidx.room.Upsert
 import androidx.sqlite.db.SupportSQLiteQuery
-import com.metrolist.innertube.models.PlaylistItem
-import com.metrolist.innertube.models.SongItem
-import com.metrolist.innertube.pages.AlbumPage
-import com.metrolist.innertube.pages.ArtistPage
+import com.nadify.innertube.models.PlaylistItem
+import com.nadify.innertube.models.SongItem
+import com.nadify.innertube.pages.AlbumPage
+import com.nadify.innertube.pages.ArtistPage
 import com.nacdev.nadify.constants.AlbumSortType
 import com.nacdev.nadify.constants.ArtistSongSortType
 import com.nacdev.nadify.constants.ArtistSortType

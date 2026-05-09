@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.betterlyrics"
+    namespace = "com.nadify.betterlyrics"
     compileSdk = 36
 
     defaultConfig {

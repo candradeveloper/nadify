@@ -248,7 +248,7 @@
     <string name="wrapped_total_artists_subtitle">benzersiz sanatçı!</string>
     <string name="wrapped_total_songs_title">Şunları dinlediniz</string>
     <string name="wrapped_total_songs_subtitle">benzersiz şarkı!</string>
-    <string name="wrapped_intro_title">METROLIST</string>
+    <string name="wrapped_intro_title">NADIFY</string>
     <string name="wrapped_intro_subtitle">bu yıl neler dinlediğine bakma zamanı…</string>
     <string name="wrapped_intro_button">hadi başlayalım!</string>
     <string name="wrapped_logo_content_description">Nadify Logosu</string>
@@ -263,7 +263,7 @@
     <string name="wrapped_playlist_saved">Oynatma listesi kaydedildi</string>
     <string name="casting_to">%s cihazına yansıtılıyor</string>
     <string name="progress_percent">İlerleme %s%%</string>
-    <string name="listening_to_metrolist">Nadify dinleniyor</string>
+    <string name="listening_to_nadify">Nadify dinleniyor</string>
     <string name="open">Aç</string>
     <string name="failed_to_create_image">Görsel oluşturulamadı: %s</string>
     <string name="copied_title">Başlık kopyalandı</string>
@@ -535,9 +535,9 @@
     <string name="discord_rpc_preview">Rich Presence önizlemesi</string>
     <string name="discord_presence">Durum</string>
     <string name="discord_connect_description">Ne dinlediğini paylaşmak için Discord\'a giriş yap</string>
-    <string name="discord_playing_metrolist">Nadify oynuyor</string>
-    <string name="discord_watching_metrolist">Nadify izliyor</string>
-    <string name="discord_competing_metrolist">Nadify\'te yarışıyor</string>
+    <string name="discord_playing_nadify">Nadify oynuyor</string>
+    <string name="discord_watching_nadify">Nadify izliyor</string>
+    <string name="discord_competing_nadify">Nadify\'te yarışıyor</string>
     <string name="discord_activity_name">Etkinlik adı</string>
     <string name="discord_activity_name_description">Etkinlik için özel ad. Varsayılanı kullanmak için boş bırakın</string>
     <string name="discord_advanced_mode">Gelişmiş mod</string>
@@ -615,7 +615,7 @@
     <string name="like_what_i_do">Yaptıklarımdan hoşlanıyor musunuz?</string>
     <string name="buy_mo_a_coffee">Bana bir kahve ısmarla!</string>
     <string name="community_and_info">Topluluk ve Bilgi</string>
-    <string name="metrolist">METROLIST</string>
+    <string name="nadify">NADIFY</string>
     <string name="wanna_play_favorite_song">Onların en sevdiği şarkıyı çalmak ister misin?</string>
     <string name="yeah">Evet!</string>
     <string name="stands_with_palestine">Bu proje Filistin\'in yanındadır 🇵🇸</string>
@@ -736,7 +736,7 @@
     <string name="android_auto_reorder_hint">Bir bölümü etkinleştirmek veya devre dışı bırakmak için o bölüme dokunun.\nSıralamayı değiştirmek için sürükleme tutamacına uzun süre basın. Varsayılan olarak ilk bölüm gösterilecektir</string>
     <string name="android_auto_visible_sections">Görünür bölümler</string>
     <string name="android_auto">Android Auto</string>
-    <string name="listen_on_metrolist">Nadify\'te dinle</string>
+    <string name="listen_on_nadify">Nadify\'te dinle</string>
     <string name="recognition_notification_failed">Tanıma başarısız oldu</string>
     <string name="recognition_notification_no_match">Eşleşme bulunamadı</string>
     <string name="recognition_notification_processing">Tanımlanıyor…</string>

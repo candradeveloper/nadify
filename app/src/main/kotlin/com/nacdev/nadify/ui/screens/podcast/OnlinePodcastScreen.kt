@@ -69,7 +69,7 @@ import androidx.navigation.NavController
 import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
 import com.nacdev.nadify.ui.utils.resize
-import com.metrolist.innertube.models.PodcastItem
+import com.nadify.innertube.models.PodcastItem
 import timber.log.Timber
 import com.nacdev.nadify.LocalDatabase
 import com.nacdev.nadify.LocalPlayerAwareWindowInsets
