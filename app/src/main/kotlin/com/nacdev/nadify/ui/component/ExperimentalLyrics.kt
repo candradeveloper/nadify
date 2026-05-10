@@ -183,7 +183,7 @@ fun ExperimentalLyrics(
     val mediaMetadata by playerConnection.mediaMetadata.collectAsStateWithLifecycle()
     val translationStatus by LyricsTranslationHelper.status.collectAsStateWithLifecycle()
     val currentLyricsEntity by playerConnection.currentLyrics.collectAsStateWithLifecycle(initialValue = null)
-    var lastValidLyricsEntity by remember { mutableStateOf<com.metrolist.music.db.entities.LyricsEntity?>(null) }
+    var lastValidLyricsEntity by remember { mutableStateOf<com.nacdev.nadify.db.entities.LyricsEntity?>(null) }
     
     LaunchedEffect(currentLyricsEntity) {
         if (currentLyricsEntity != null) {
