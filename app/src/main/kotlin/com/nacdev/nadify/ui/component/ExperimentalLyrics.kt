@@ -1,5 +1,5 @@
 /**
- * Nadify Project (C) 2026
+ * Metrolist Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -183,14 +183,13 @@ fun ExperimentalLyrics(
     val mediaMetadata by playerConnection.mediaMetadata.collectAsStateWithLifecycle()
     val translationStatus by LyricsTranslationHelper.status.collectAsStateWithLifecycle()
     val currentLyricsEntity by playerConnection.currentLyrics.collectAsStateWithLifecycle(initialValue = null)
-    var lastValidLyricsEntity by remember { mutableStateOf<com.nacdev.nadify.db.entities.LyricsEntity?>(null) }
+    var lastValidLyricsEntity by remember { mutableStateOf<com.metrolist.music.db.entities.LyricsEntity?>(null) }
     
     LaunchedEffect(currentLyricsEntity) {
         if (currentLyricsEntity != null) {
             lastValidLyricsEntity = currentLyricsEntity
         }
     }
-    val expressiveAccent = Color.White
     
     val lyricsEntity = remember(currentLyricsEntity, translationStatus) {
         if (currentLyricsEntity != null) {
@@ -201,7 +200,6 @@ fun ExperimentalLyrics(
             null
         }
     }
-    val expressiveAccent = Color.White
     val currentSong by playerConnection.currentSong.collectAsStateWithLifecycle(initialValue = null)
     val lyrics = remember(lyricsEntity) { lyricsEntity?.lyrics?.trim() }
 
@@ -220,7 +218,6 @@ fun ExperimentalLyrics(
             }
         }.filter { it.second }.map { it.first }
     }
-    val expressiveAccent = Color.White
 
     val lines by lyricsViewModel.lines.collectAsStateWithLifecycle()
     val mergedLyricsList by lyricsViewModel.mergedLyricsList.collectAsStateWithLifecycle()
@@ -228,7 +225,6 @@ fun ExperimentalLyrics(
     LaunchedEffect(lyrics, enabledLanguages, romanizeCyrillicByLine, showIntervalIndicator) {
         lyricsViewModel.processLyrics(lyrics, enabledLanguages, romanizeCyrillicByLine, showIntervalIndicator)
     }
-    val expressiveAccent = Color.White
 
     val isSynced = remember(lyrics) { lyricsTextLooksSynced(lyrics) }
     val hasWordTimings = remember(lines) { lines.any { it.words?.isNotEmpty() == true } }
@@ -240,7 +236,6 @@ fun ExperimentalLyrics(
             LyricsTranslationHelper.cancelTranslation()
         }
     }
-    val expressiveAccent = Color.White
     
     LaunchedEffect(lines, lyricsEntity, translateLanguage, translateMode) {
         if (lines.isNotEmpty() && lyricsEntity != null) {
@@ -252,7 +247,6 @@ fun ExperimentalLyrics(
             )
         }
     }
-    val expressiveAccent = Color.White
     
     LaunchedEffect(
         showLyrics, 
@@ -294,20 +288,14 @@ fun ExperimentalLyrics(
             }
         }
     }
-    val expressiveAccent = Color.White
     
     LaunchedEffect(lines) {
         LyricsTranslationHelper.clearTranslationsTrigger.collectLatest {
             lines.forEach { it.translatedTextFlow.value = null }
         }
     }
-    val expressiveAccent = Color.White
 
-    // Nadify: lirik selalu putih — kontras di background gelap
-    // val expressiveAccent = when (playerBackground) {
-    //         PlayerBackgroundStyle.DEFAULT -> MaterialTheme.colorScheme.primary
-    //         PlayerBackgroundStyle.BLUR, PlayerBackgroundStyle.GRADIENT -> Color.White
-    }
+    // Nadify: lirik selalu putih agar kontras di background gelap
     val expressiveAccent = Color.White
 
     var activeLineIndices by remember { mutableStateOf(emptySet<Int>()) }
@@ -332,7 +320,6 @@ fun ExperimentalLyrics(
         isSelectionModeActive = false
         selectedIndices.clear()
     }
-    val expressiveAccent = Color.White
 
     val maxSelectionLimit = 5
     LaunchedEffect(showMaxSelectionToast) {
@@ -341,7 +328,6 @@ fun ExperimentalLyrics(
             showMaxSelectionToast = false
         }
     }
-    val expressiveAccent = Color.White
 
     var lastMainMaxSeen by remember(lyrics, lines) { mutableIntStateOf(-1) }
     var smoothPositionForSync by remember { mutableLongStateOf(0L) }
@@ -454,7 +440,6 @@ fun ExperimentalLyrics(
             activeLineIndices = newActiveIndices
         }
     }
-    val expressiveAccent = Color.White
 
     LaunchedEffect(isSeeking, lastPreviewTime) {
         if (isSeeking) {
@@ -464,14 +449,12 @@ fun ExperimentalLyrics(
             lastPreviewTime = 0L
         }
     }
-    val expressiveAccent = Color.White
 
     LaunchedEffect(scrollTargetIndex, isAutoScrollEnabled) {
         if (scrollTargetIndex != -1 && isAutoScrollEnabled) {
             deferredCurrentLineIndex = scrollTargetIndex
         }
     }
-    val expressiveAccent = Color.White
 
     var userManualOffset by remember { mutableFloatStateOf(0f) }
     LaunchedEffect(lyrics, lines) {
@@ -483,7 +466,6 @@ fun ExperimentalLyrics(
         selectedIndices.clear()
         previousScrollActiveIndices = emptySet()
     }
-    val expressiveAccent = Color.White
     
     var flingJob by remember { mutableStateOf<kotlinx.coroutines.Job?>(null) }
     val velocityTracker = remember { VelocityTracker() }
@@ -499,7 +481,6 @@ fun ExperimentalLyrics(
             }.coerceAtLeast(0)
         }
     }
-    val expressiveAccent = Color.White
 
     val lifecycleOwner = LocalLifecycleOwner.current
     DisposableEffect(showLyrics) {
@@ -507,7 +488,6 @@ fun ExperimentalLyrics(
         if (showLyrics) activity?.window?.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         onDispose { activity?.window?.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON) }
     }
-    val expressiveAccent = Color.White
 
     BoxWithConstraints(
         contentAlignment = Alignment.TopCenter,
@@ -852,7 +832,6 @@ fun ExperimentalLyrics(
             }
         )
     }
-    val expressiveAccent = Color.White
 
     if (showProgressDialog) {
         BasicAlertDialog(onDismissRequest = {}) {
@@ -861,7 +840,6 @@ fun ExperimentalLyrics(
             }
         }
     }
-    val expressiveAccent = Color.White
 
     if (showShareDialog && shareDialogData != null) {
         val (txt, title, arts) = shareDialogData!!
@@ -874,7 +852,6 @@ fun ExperimentalLyrics(
             }
         )
     }
-    val expressiveAccent = Color.White
 
     if (showColorPickerDialog && shareDialogData != null) {
         val (txt, title, arts) = shareDialogData!!
@@ -919,5 +896,4 @@ fun ExperimentalLyrics(
             }
         )
     }
-    val expressiveAccent = Color.White
 }
